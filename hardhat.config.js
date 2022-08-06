@@ -20,6 +20,11 @@ module.exports = {
       accounts: [PRIVATE_KEY],
       chainId: 4,
     },
+    localhost: {
+      url: "http://127.0.0.1:8545",
+      //acounts: hardhat gives me 10 fake accounts
+      chainId: 31337,
+    },
   },
   // allowUnlimitedContractSize: true,
   solidity: "0.8.9",
